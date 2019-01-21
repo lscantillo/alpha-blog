@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  
+  <header style="background:#2E527F;">
+  <title> Alpha Blog</title>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"> <%= link_to 'About', about_path(@patient) %></a>
+      </li>     
+      
+    </ul>
+   
+  </div>
+</nav> 
+  </header>
+  
+  <%= link_to 'About', about_path(@patient) %>
+  <body style="background:#5CA4FF;">
+    <h1>
+      Alpha Blog
+    </h1>
+    
+    
+    
+    <footer>
+      Ruby On Rails 2019
+  </footer>
+  </body>
+  
+  
+  
+</html>
