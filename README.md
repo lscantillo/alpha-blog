@@ -1,3 +1,3 @@
 # README
 
-This is the repository for hte first alpha-blog 
+This is the repository for the first alpha-blog 
